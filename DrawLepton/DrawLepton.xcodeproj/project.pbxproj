@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D559F7288CB35F007C5368 /* DrawLeptonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D559F6288CB35F007C5368 /* DrawLeptonApp.swift */; };
+		D0D559FB288CB360007C5368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D559FA288CB360007C5368 /* Assets.xcassets */; };
+		D0D559FE288CB360007C5368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D559FD288CB360007C5368 /* Preview Assets.xcassets */; };
+		D0D55A09288CB360007C5368 /* DrawLeptonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A08288CB360007C5368 /* DrawLeptonTests.swift */; };
+		D0D55A13288CB360007C5368 /* DrawLeptonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A12288CB360007C5368 /* DrawLeptonUITests.swift */; };
+		D0D55A15288CB360007C5368 /* DrawLeptonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A14288CB360007C5368 /* DrawLeptonUITestsLaunchTests.swift */; };
+		D0D55A37288DF775007C5368 /* HexagonA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A21288DF774007C5368 /* HexagonA.swift */; };
+		D0D55A38288DF775007C5368 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A22288DF775007C5368 /* Grid.swift */; };
+		D0D55A39288DF775007C5368 /* QuarkB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A23288DF775007C5368 /* QuarkB.swift */; };
+		D0D55A3A288DF775007C5368 /* Quark1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A24288DF775007C5368 /* Quark1.swift */; };
+		D0D55A3B288DF775007C5368 /* QuarkA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A25288DF775007C5368 /* QuarkA.swift */; };
+		D0D55A3C288DF775007C5368 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A26288DF775007C5368 /* Hexagon.swift */; };
+		D0D55A3D288DF775007C5368 /* HexagonB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A27288DF775007C5368 /* HexagonB.swift */; };
+		D0D55A3E288DF775007C5368 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A28288DF775007C5368 /* ContentView.swift */; };
+		D0D55A3F288DF775007C5368 /* MagneticN.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A29288DF775007C5368 /* MagneticN.swift */; };
+		D0D55A40288DF775007C5368 /* HexagonC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2A288DF775007C5368 /* HexagonC.swift */; };
+		D0D55A41288DF775007C5368 /* Quark3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2B288DF775007C5368 /* Quark3.swift */; };
+		D0D55A42288DF775007C5368 /* Quark2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2C288DF775007C5368 /* Quark2.swift */; };
+		D0D55A43288DF775007C5368 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2D288DF775007C5368 /* Space.swift */; };
+		D0D55A44288DF775007C5368 /* TapableLeptons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2E288DF775007C5368 /* TapableLeptons.swift */; };
+		D0D55A45288DF775007C5368 /* MagneticS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A2F288DF775007C5368 /* MagneticS.swift */; };
+		D0D55A46288DF775007C5368 /* AllQuarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A30288DF775007C5368 /* AllQuarks.swift */; };
+		D0D55A47288DF775007C5368 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A31288DF775007C5368 /* Data.swift */; };
+		D0D55A48288DF775007C5368 /* MultipleQuarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A32288DF775007C5368 /* MultipleQuarks.swift */; };
+		D0D55A49288DF775007C5368 /* Lepton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A33288DF775007C5368 /* Lepton.swift */; };
+		D0D55A4A288DF775007C5368 /* Quark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A34288DF775007C5368 /* Quark.swift */; };
+		D0D55A4B288DF775007C5368 /* QuarkC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A35288DF775007C5368 /* QuarkC.swift */; };
+		D0D55A4C288DF775007C5368 /* Outline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A36288DF775007C5368 /* Outline.swift */; };
+		D0D55A4E288FCA8F007C5368 /* DrawSingleQuark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A4D288FCA8F007C5368 /* DrawSingleQuark.swift */; };
+		D0D55A50288FD33C007C5368 /* DrawSingleLepton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A4F288FD33C007C5368 /* DrawSingleLepton.swift */; };
+		D0D55A52288FD422007C5368 /* DrawWorkingGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A51288FD422007C5368 /* DrawWorkingGraph.swift */; };
+		D0D55A54288FDE12007C5368 /* HexagonMiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A53288FDE12007C5368 /* HexagonMiddle.swift */; };
+		D0D55A562891D2A1007C5368 /* DrawAllTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55A552891D2A1007C5368 /* DrawAllTriplets.swift */; };
+		D0D55B092897BBE7007C5368 /* WorkWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D55B082897BBE7007C5368 /* WorkWithStrings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D55A05288CB360007C5368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D559EB288CB35F007C5368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D559F2288CB35F007C5368;
+			remoteInfo = DrawLepton;
+		};
+		D0D55A0F288CB360007C5368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D559EB288CB35F007C5368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D559F2288CB35F007C5368;
+			remoteInfo = DrawLepton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0D559F3288CB35F007C5368 /* DrawLepton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawLepton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D559F6288CB35F007C5368 /* DrawLeptonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLeptonApp.swift; sourceTree = "<group>"; };
+		D0D559FA288CB360007C5368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D559FD288CB360007C5368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0D559FF288CB360007C5368 /* DrawLepton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawLepton.entitlements; sourceTree = "<group>"; };
+		D0D55A04288CB360007C5368 /* DrawLeptonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawLeptonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D55A08288CB360007C5368 /* DrawLeptonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLeptonTests.swift; sourceTree = "<group>"; };
+		D0D55A0E288CB360007C5368 /* DrawLeptonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawLeptonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D55A12288CB360007C5368 /* DrawLeptonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLeptonUITests.swift; sourceTree = "<group>"; };
+		D0D55A14288CB360007C5368 /* DrawLeptonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLeptonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0D55A21288DF774007C5368 /* HexagonA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonA.swift; sourceTree = "<group>"; };
+		D0D55A22288DF775007C5368 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D0D55A23288DF775007C5368 /* QuarkB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuarkB.swift; sourceTree = "<group>"; };
+		D0D55A24288DF775007C5368 /* Quark1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quark1.swift; sourceTree = "<group>"; };
+		D0D55A25288DF775007C5368 /* QuarkA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuarkA.swift; sourceTree = "<group>"; };
+		D0D55A26288DF775007C5368 /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		D0D55A27288DF775007C5368 /* HexagonB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonB.swift; sourceTree = "<group>"; };
+		D0D55A28288DF775007C5368 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../Lepton/Lepton/ContentView.swift; sourceTree = "<group>"; };
+		D0D55A29288DF775007C5368 /* MagneticN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagneticN.swift; sourceTree = "<group>"; };
+		D0D55A2A288DF775007C5368 /* HexagonC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonC.swift; sourceTree = "<group>"; };
+		D0D55A2B288DF775007C5368 /* Quark3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quark3.swift; sourceTree = "<group>"; };
+		D0D55A2C288DF775007C5368 /* Quark2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quark2.swift; sourceTree = "<group>"; };
+		D0D55A2D288DF775007C5368 /* Space.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		D0D55A2E288DF775007C5368 /* TapableLeptons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapableLeptons.swift; sourceTree = "<group>"; };
+		D0D55A2F288DF775007C5368 /* MagneticS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagneticS.swift; sourceTree = "<group>"; };
+		D0D55A30288DF775007C5368 /* AllQuarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllQuarks.swift; sourceTree = "<group>"; };
+		D0D55A31288DF775007C5368 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D0D55A32288DF775007C5368 /* MultipleQuarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleQuarks.swift; sourceTree = "<group>"; };
+		D0D55A33288DF775007C5368 /* Lepton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lepton.swift; sourceTree = "<group>"; };
+		D0D55A34288DF775007C5368 /* Quark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quark.swift; sourceTree = "<group>"; };
+		D0D55A35288DF775007C5368 /* QuarkC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuarkC.swift; sourceTree = "<group>"; };
+		D0D55A36288DF775007C5368 /* Outline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outline.swift; sourceTree = "<group>"; };
+		D0D55A4D288FCA8F007C5368 /* DrawSingleQuark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSingleQuark.swift; sourceTree = "<group>"; };
+		D0D55A4F288FD33C007C5368 /* DrawSingleLepton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawSingleLepton.swift; sourceTree = "<group>"; };
+		D0D55A51288FD422007C5368 /* DrawWorkingGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWorkingGraph.swift; sourceTree = "<group>"; };
+		D0D55A53288FDE12007C5368 /* HexagonMiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonMiddle.swift; sourceTree = "<group>"; };
+		D0D55A552891D2A1007C5368 /* DrawAllTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAllTriplets.swift; sourceTree = "<group>"; };
+		D0D55B082897BBE7007C5368 /* WorkWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithStrings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D559F0288CB35F007C5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A01288CB360007C5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A0B288CB360007C5368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D559EA288CB35F007C5368 = {
+			isa = PBXGroup;
+			children = (
+				D0D559F5288CB35F007C5368 /* DrawLepton */,
+				D0D55A07288CB360007C5368 /* DrawLeptonTests */,
+				D0D55A11288CB360007C5368 /* DrawLeptonUITests */,
+				D0D559F4288CB35F007C5368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D559F4288CB35F007C5368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D559F3288CB35F007C5368 /* DrawLepton.app */,
+				D0D55A04288CB360007C5368 /* DrawLeptonTests.xctest */,
+				D0D55A0E288CB360007C5368 /* DrawLeptonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D559F5288CB35F007C5368 /* DrawLepton */ = {
+			isa = PBXGroup;
+			children = (
+				D0D559F6288CB35F007C5368 /* DrawLeptonApp.swift */,
+				D0D55A28288DF775007C5368 /* ContentView.swift */,
+				D0D55A51288FD422007C5368 /* DrawWorkingGraph.swift */,
+				D0D55A552891D2A1007C5368 /* DrawAllTriplets.swift */,
+				D0D55B082897BBE7007C5368 /* WorkWithStrings.swift */,
+				D0D55A30288DF775007C5368 /* AllQuarks.swift */,
+				D0D55A31288DF775007C5368 /* Data.swift */,
+				D0D55A22288DF775007C5368 /* Grid.swift */,
+				D0D55A26288DF775007C5368 /* Hexagon.swift */,
+				D0D55A53288FDE12007C5368 /* HexagonMiddle.swift */,
+				D0D55A21288DF774007C5368 /* HexagonA.swift */,
+				D0D55A27288DF775007C5368 /* HexagonB.swift */,
+				D0D55A2A288DF775007C5368 /* HexagonC.swift */,
+				D0D55A33288DF775007C5368 /* Lepton.swift */,
+				D0D55A4D288FCA8F007C5368 /* DrawSingleQuark.swift */,
+				D0D55A4F288FD33C007C5368 /* DrawSingleLepton.swift */,
+				D0D55A29288DF775007C5368 /* MagneticN.swift */,
+				D0D55A2F288DF775007C5368 /* MagneticS.swift */,
+				D0D55A32288DF775007C5368 /* MultipleQuarks.swift */,
+				D0D55A36288DF775007C5368 /* Outline.swift */,
+				D0D55A34288DF775007C5368 /* Quark.swift */,
+				D0D55A24288DF775007C5368 /* Quark1.swift */,
+				D0D55A2C288DF775007C5368 /* Quark2.swift */,
+				D0D55A2B288DF775007C5368 /* Quark3.swift */,
+				D0D55A25288DF775007C5368 /* QuarkA.swift */,
+				D0D55A23288DF775007C5368 /* QuarkB.swift */,
+				D0D55A35288DF775007C5368 /* QuarkC.swift */,
+				D0D55A2D288DF775007C5368 /* Space.swift */,
+				D0D55A2E288DF775007C5368 /* TapableLeptons.swift */,
+				D0D559FA288CB360007C5368 /* Assets.xcassets */,
+				D0D559FF288CB360007C5368 /* DrawLepton.entitlements */,
+				D0D559FC288CB360007C5368 /* Preview Content */,
+			);
+			path = DrawLepton;
+			sourceTree = "<group>";
+		};
+		D0D559FC288CB360007C5368 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0D559FD288CB360007C5368 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0D55A07288CB360007C5368 /* DrawLeptonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D55A08288CB360007C5368 /* DrawLeptonTests.swift */,
+			);
+			path = DrawLeptonTests;
+			sourceTree = "<group>";
+		};
+		D0D55A11288CB360007C5368 /* DrawLeptonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D55A12288CB360007C5368 /* DrawLeptonUITests.swift */,
+				D0D55A14288CB360007C5368 /* DrawLeptonUITestsLaunchTests.swift */,
+			);
+			path = DrawLeptonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D559F2288CB35F007C5368 /* DrawLepton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D55A18288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLepton" */;
+			buildPhases = (
+				D0D559EF288CB35F007C5368 /* Sources */,
+				D0D559F0288CB35F007C5368 /* Frameworks */,
+				D0D559F1288CB35F007C5368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawLepton;
+			productName = DrawLepton;
+			productReference = D0D559F3288CB35F007C5368 /* DrawLepton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D55A03288CB360007C5368 /* DrawLeptonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D55A1B288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLeptonTests" */;
+			buildPhases = (
+				D0D55A00288CB360007C5368 /* Sources */,
+				D0D55A01288CB360007C5368 /* Frameworks */,
+				D0D55A02288CB360007C5368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D55A06288CB360007C5368 /* PBXTargetDependency */,
+			);
+			name = DrawLeptonTests;
+			productName = DrawLeptonTests;
+			productReference = D0D55A04288CB360007C5368 /* DrawLeptonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0D55A0D288CB360007C5368 /* DrawLeptonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D55A1E288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLeptonUITests" */;
+			buildPhases = (
+				D0D55A0A288CB360007C5368 /* Sources */,
+				D0D55A0B288CB360007C5368 /* Frameworks */,
+				D0D55A0C288CB360007C5368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D55A10288CB360007C5368 /* PBXTargetDependency */,
+			);
+			name = DrawLeptonUITests;
+			productName = DrawLeptonUITests;
+			productReference = D0D55A0E288CB360007C5368 /* DrawLeptonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D559EB288CB35F007C5368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D0D559F2288CB35F007C5368 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D0D55A03288CB360007C5368 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0D559F2288CB35F007C5368;
+					};
+					D0D55A0D288CB360007C5368 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0D559F2288CB35F007C5368;
+					};
+				};
+			};
+			buildConfigurationList = D0D559EE288CB35F007C5368 /* Build configuration list for PBXProject "DrawLepton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D559EA288CB35F007C5368;
+			productRefGroup = D0D559F4288CB35F007C5368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D559F2288CB35F007C5368 /* DrawLepton */,
+				D0D55A03288CB360007C5368 /* DrawLeptonTests */,
+				D0D55A0D288CB360007C5368 /* DrawLeptonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D559F1288CB35F007C5368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D559FE288CB360007C5368 /* Preview Assets.xcassets in Resources */,
+				D0D559FB288CB360007C5368 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A02288CB360007C5368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A0C288CB360007C5368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D559EF288CB35F007C5368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D55A4A288DF775007C5368 /* Quark.swift in Sources */,
+				D0D55A3B288DF775007C5368 /* QuarkA.swift in Sources */,
+				D0D55A54288FDE12007C5368 /* HexagonMiddle.swift in Sources */,
+				D0D55A3D288DF775007C5368 /* HexagonB.swift in Sources */,
+				D0D55A48288DF775007C5368 /* MultipleQuarks.swift in Sources */,
+				D0D55A3F288DF775007C5368 /* MagneticN.swift in Sources */,
+				D0D55A3C288DF775007C5368 /* Hexagon.swift in Sources */,
+				D0D55A43288DF775007C5368 /* Space.swift in Sources */,
+				D0D55A4C288DF775007C5368 /* Outline.swift in Sources */,
+				D0D55A52288FD422007C5368 /* DrawWorkingGraph.swift in Sources */,
+				D0D55A37288DF775007C5368 /* HexagonA.swift in Sources */,
+				D0D55A3A288DF775007C5368 /* Quark1.swift in Sources */,
+				D0D55A3E288DF775007C5368 /* ContentView.swift in Sources */,
+				D0D55A4E288FCA8F007C5368 /* DrawSingleQuark.swift in Sources */,
+				D0D55B092897BBE7007C5368 /* WorkWithStrings.swift in Sources */,
+				D0D55A562891D2A1007C5368 /* DrawAllTriplets.swift in Sources */,
+				D0D55A41288DF775007C5368 /* Quark3.swift in Sources */,
+				D0D55A42288DF775007C5368 /* Quark2.swift in Sources */,
+				D0D55A45288DF775007C5368 /* MagneticS.swift in Sources */,
+				D0D55A46288DF775007C5368 /* AllQuarks.swift in Sources */,
+				D0D559F7288CB35F007C5368 /* DrawLeptonApp.swift in Sources */,
+				D0D55A38288DF775007C5368 /* Grid.swift in Sources */,
+				D0D55A44288DF775007C5368 /* TapableLeptons.swift in Sources */,
+				D0D55A47288DF775007C5368 /* Data.swift in Sources */,
+				D0D55A4B288DF775007C5368 /* QuarkC.swift in Sources */,
+				D0D55A49288DF775007C5368 /* Lepton.swift in Sources */,
+				D0D55A50288FD33C007C5368 /* DrawSingleLepton.swift in Sources */,
+				D0D55A40288DF775007C5368 /* HexagonC.swift in Sources */,
+				D0D55A39288DF775007C5368 /* QuarkB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A00288CB360007C5368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D55A09288CB360007C5368 /* DrawLeptonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D55A0A288CB360007C5368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D55A15288CB360007C5368 /* DrawLeptonUITestsLaunchTests.swift in Sources */,
+				D0D55A13288CB360007C5368 /* DrawLeptonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D55A06288CB360007C5368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D559F2288CB35F007C5368 /* DrawLepton */;
+			targetProxy = D0D55A05288CB360007C5368 /* PBXContainerItemProxy */;
+		};
+		D0D55A10288CB360007C5368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D559F2288CB35F007C5368 /* DrawLepton */;
+			targetProxy = D0D55A0F288CB360007C5368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0D55A16288CB360007C5368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0D55A17288CB360007C5368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0D55A19288CB360007C5368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawLepton/DrawLepton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawLepton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLepton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0D55A1A288CB360007C5368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawLepton/DrawLepton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawLepton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLepton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0D55A1C288CB360007C5368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLeptonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawLepton.app/Contents/MacOS/DrawLepton";
+			};
+			name = Debug;
+		};
+		D0D55A1D288CB360007C5368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLeptonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawLepton.app/Contents/MacOS/DrawLepton";
+			};
+			name = Release;
+		};
+		D0D55A1F288CB360007C5368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLeptonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DrawLepton;
+			};
+			name = Debug;
+		};
+		D0D55A20288CB360007C5368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.DrawLeptonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DrawLepton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D559EE288CB35F007C5368 /* Build configuration list for PBXProject "DrawLepton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D55A16288CB360007C5368 /* Debug */,
+				D0D55A17288CB360007C5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D55A18288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLepton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D55A19288CB360007C5368 /* Debug */,
+				D0D55A1A288CB360007C5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D55A1B288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLeptonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D55A1C288CB360007C5368 /* Debug */,
+				D0D55A1D288CB360007C5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D55A1E288CB360007C5368 /* Build configuration list for PBXNativeTarget "DrawLeptonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D55A1F288CB360007C5368 /* Debug */,
+				D0D55A20288CB360007C5368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D559EB288CB35F007C5368 /* Project object */;
+}
