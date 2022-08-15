@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E2B1732857E135006B067C /* QuarkGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1722857E135006B067C /* QuarkGridApp.swift */; };
+		D0E2B1752857E135006B067C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1742857E135006B067C /* ContentView.swift */; };
+		D0E2B1772857E136006B067C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E2B1762857E136006B067C /* Assets.xcassets */; };
+		D0E2B17A2857E136006B067C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E2B1792857E136006B067C /* Preview Assets.xcassets */; };
+		D0E2B1852857E136006B067C /* QuarkGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1842857E136006B067C /* QuarkGridTests.swift */; };
+		D0E2B18F2857E136006B067C /* QuarkGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B18E2857E136006B067C /* QuarkGridUITests.swift */; };
+		D0E2B1912857E136006B067C /* QuarkGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1902857E136006B067C /* QuarkGridUITestsLaunchTests.swift */; };
+		D0E2B19E2857F018006B067C /* Outline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B19D2857F018006B067C /* Outline.swift */; };
+		D0E2B1A02857F0FE006B067C /* Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B19F2857F0FE006B067C /* Placement.swift */; };
+		D0E2B1A22858000E006B067C /* automatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1A12858000E006B067C /* automatic.swift */; };
+		D0E2B1A4285800E8006B067C /* Origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1A3285800E8006B067C /* Origin.swift */; };
+		D0E2B1A628580110006B067C /* Trial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2B1A528580110006B067C /* Trial.swift */; };
+		D0E9EF7F286687460001EF33 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF7E286687460001EF33 /* Data.swift */; };
+		D0E9EF812868F4A70001EF33 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF802868F4A70001EF33 /* Grid.swift */; };
+		D0E9EF832868F7660001EF33 /* Quark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF822868F7660001EF33 /* Quark.swift */; };
+		D0E9EF872868F8C70001EF33 /* MagneticN.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF862868F8C70001EF33 /* MagneticN.swift */; };
+		D0E9EF892868F90B0001EF33 /* MagneticS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF882868F90B0001EF33 /* MagneticS.swift */; };
+		D0E9EF8B286906B10001EF33 /* EmptySpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF8A286906B10001EF33 /* EmptySpace.swift */; };
+		D0E9EF8D2869130F0001EF33 /* Lepton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF8C2869130F0001EF33 /* Lepton.swift */; };
+		D0E9EF8F286914CF0001EF33 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9EF8E286914CF0001EF33 /* Hexagon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E2B1812857E136006B067C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E2B1672857E135006B067C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E2B16E2857E135006B067C;
+			remoteInfo = QuarkGrid;
+		};
+		D0E2B18B2857E136006B067C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E2B1672857E135006B067C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E2B16E2857E135006B067C;
+			remoteInfo = QuarkGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E2B16F2857E135006B067C /* QuarkGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuarkGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2B1722857E135006B067C /* QuarkGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkGridApp.swift; sourceTree = "<group>"; };
+		D0E2B1742857E135006B067C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0E2B1762857E136006B067C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E2B1792857E136006B067C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0E2B17B2857E136006B067C /* QuarkGrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuarkGrid.entitlements; sourceTree = "<group>"; };
+		D0E2B1802857E136006B067C /* QuarkGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuarkGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2B1842857E136006B067C /* QuarkGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkGridTests.swift; sourceTree = "<group>"; };
+		D0E2B18A2857E136006B067C /* QuarkGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuarkGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E2B18E2857E136006B067C /* QuarkGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkGridUITests.swift; sourceTree = "<group>"; };
+		D0E2B1902857E136006B067C /* QuarkGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0E2B19D2857F018006B067C /* Outline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outline.swift; sourceTree = "<group>"; };
+		D0E2B19F2857F0FE006B067C /* Placement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placement.swift; sourceTree = "<group>"; };
+		D0E2B1A12858000E006B067C /* automatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = automatic.swift; sourceTree = "<group>"; };
+		D0E2B1A3285800E8006B067C /* Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Origin.swift; sourceTree = "<group>"; };
+		D0E2B1A528580110006B067C /* Trial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trial.swift; sourceTree = "<group>"; };
+		D0E9EF7E286687460001EF33 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D0E9EF802868F4A70001EF33 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D0E9EF822868F7660001EF33 /* Quark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quark.swift; sourceTree = "<group>"; };
+		D0E9EF862868F8C70001EF33 /* MagneticN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticN.swift; sourceTree = "<group>"; };
+		D0E9EF882868F90B0001EF33 /* MagneticS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticS.swift; sourceTree = "<group>"; };
+		D0E9EF8A286906B10001EF33 /* EmptySpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySpace.swift; sourceTree = "<group>"; };
+		D0E9EF8C2869130F0001EF33 /* Lepton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lepton.swift; sourceTree = "<group>"; };
+		D0E9EF8E286914CF0001EF33 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E2B16C2857E135006B067C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B17D2857E136006B067C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B1872857E136006B067C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E2B1662857E135006B067C = {
+			isa = PBXGroup;
+			children = (
+				D0E2B1712857E135006B067C /* QuarkGrid */,
+				D0E2B1832857E136006B067C /* QuarkGridTests */,
+				D0E2B18D2857E136006B067C /* QuarkGridUITests */,
+				D0E2B1702857E135006B067C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E2B1702857E135006B067C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2B16F2857E135006B067C /* QuarkGrid.app */,
+				D0E2B1802857E136006B067C /* QuarkGridTests.xctest */,
+				D0E2B18A2857E136006B067C /* QuarkGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E2B1712857E135006B067C /* QuarkGrid */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2B1722857E135006B067C /* QuarkGridApp.swift */,
+				D0E2B1742857E135006B067C /* ContentView.swift */,
+				D0E2B1A12858000E006B067C /* automatic.swift */,
+				D0E9EF7E286687460001EF33 /* Data.swift */,
+				D0E2B1A3285800E8006B067C /* Origin.swift */,
+				D0E9EF8C2869130F0001EF33 /* Lepton.swift */,
+				D0E2B1A528580110006B067C /* Trial.swift */,
+				D0E9EF802868F4A70001EF33 /* Grid.swift */,
+				D0E9EF822868F7660001EF33 /* Quark.swift */,
+				D0E9EF8A286906B10001EF33 /* EmptySpace.swift */,
+				D0E9EF862868F8C70001EF33 /* MagneticN.swift */,
+				D0E9EF8E286914CF0001EF33 /* Hexagon.swift */,
+				D0E2B19D2857F018006B067C /* Outline.swift */,
+				D0E9EF882868F90B0001EF33 /* MagneticS.swift */,
+				D0E2B19F2857F0FE006B067C /* Placement.swift */,
+				D0E2B1762857E136006B067C /* Assets.xcassets */,
+				D0E2B17B2857E136006B067C /* QuarkGrid.entitlements */,
+				D0E2B1782857E136006B067C /* Preview Content */,
+			);
+			path = QuarkGrid;
+			sourceTree = "<group>";
+		};
+		D0E2B1782857E136006B067C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2B1792857E136006B067C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0E2B1832857E136006B067C /* QuarkGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2B1842857E136006B067C /* QuarkGridTests.swift */,
+			);
+			path = QuarkGridTests;
+			sourceTree = "<group>";
+		};
+		D0E2B18D2857E136006B067C /* QuarkGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2B18E2857E136006B067C /* QuarkGridUITests.swift */,
+				D0E2B1902857E136006B067C /* QuarkGridUITestsLaunchTests.swift */,
+			);
+			path = QuarkGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E2B16E2857E135006B067C /* QuarkGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2B1942857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGrid" */;
+			buildPhases = (
+				D0E2B16B2857E135006B067C /* Sources */,
+				D0E2B16C2857E135006B067C /* Frameworks */,
+				D0E2B16D2857E135006B067C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuarkGrid;
+			productName = QuarkGrid;
+			productReference = D0E2B16F2857E135006B067C /* QuarkGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E2B17F2857E136006B067C /* QuarkGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2B1972857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGridTests" */;
+			buildPhases = (
+				D0E2B17C2857E136006B067C /* Sources */,
+				D0E2B17D2857E136006B067C /* Frameworks */,
+				D0E2B17E2857E136006B067C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E2B1822857E136006B067C /* PBXTargetDependency */,
+			);
+			name = QuarkGridTests;
+			productName = QuarkGridTests;
+			productReference = D0E2B1802857E136006B067C /* QuarkGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0E2B1892857E136006B067C /* QuarkGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E2B19A2857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGridUITests" */;
+			buildPhases = (
+				D0E2B1862857E136006B067C /* Sources */,
+				D0E2B1872857E136006B067C /* Frameworks */,
+				D0E2B1882857E136006B067C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E2B18C2857E136006B067C /* PBXTargetDependency */,
+			);
+			name = QuarkGridUITests;
+			productName = QuarkGridUITests;
+			productReference = D0E2B18A2857E136006B067C /* QuarkGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E2B1672857E135006B067C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D0E2B16E2857E135006B067C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D0E2B17F2857E136006B067C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0E2B16E2857E135006B067C;
+					};
+					D0E2B1892857E136006B067C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D0E2B16E2857E135006B067C;
+					};
+				};
+			};
+			buildConfigurationList = D0E2B16A2857E135006B067C /* Build configuration list for PBXProject "QuarkGrid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E2B1662857E135006B067C;
+			productRefGroup = D0E2B1702857E135006B067C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E2B16E2857E135006B067C /* QuarkGrid */,
+				D0E2B17F2857E136006B067C /* QuarkGridTests */,
+				D0E2B1892857E136006B067C /* QuarkGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E2B16D2857E135006B067C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E2B17A2857E136006B067C /* Preview Assets.xcassets in Resources */,
+				D0E2B1772857E136006B067C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B17E2857E136006B067C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B1882857E136006B067C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E2B16B2857E135006B067C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E9EF8D2869130F0001EF33 /* Lepton.swift in Sources */,
+				D0E2B1A628580110006B067C /* Trial.swift in Sources */,
+				D0E9EF8F286914CF0001EF33 /* Hexagon.swift in Sources */,
+				D0E2B1A22858000E006B067C /* automatic.swift in Sources */,
+				D0E9EF832868F7660001EF33 /* Quark.swift in Sources */,
+				D0E2B1752857E135006B067C /* ContentView.swift in Sources */,
+				D0E9EF892868F90B0001EF33 /* MagneticS.swift in Sources */,
+				D0E9EF872868F8C70001EF33 /* MagneticN.swift in Sources */,
+				D0E9EF8B286906B10001EF33 /* EmptySpace.swift in Sources */,
+				D0E2B1732857E135006B067C /* QuarkGridApp.swift in Sources */,
+				D0E2B19E2857F018006B067C /* Outline.swift in Sources */,
+				D0E2B1A02857F0FE006B067C /* Placement.swift in Sources */,
+				D0E2B1A4285800E8006B067C /* Origin.swift in Sources */,
+				D0E9EF7F286687460001EF33 /* Data.swift in Sources */,
+				D0E9EF812868F4A70001EF33 /* Grid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B17C2857E136006B067C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E2B1852857E136006B067C /* QuarkGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E2B1862857E136006B067C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E2B18F2857E136006B067C /* QuarkGridUITests.swift in Sources */,
+				D0E2B1912857E136006B067C /* QuarkGridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E2B1822857E136006B067C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E2B16E2857E135006B067C /* QuarkGrid */;
+			targetProxy = D0E2B1812857E136006B067C /* PBXContainerItemProxy */;
+		};
+		D0E2B18C2857E136006B067C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E2B16E2857E135006B067C /* QuarkGrid */;
+			targetProxy = D0E2B18B2857E136006B067C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0E2B1922857E136006B067C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E2B1932857E136006B067C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0E2B1952857E136006B067C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuarkGrid/QuarkGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuarkGrid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0E2B1962857E136006B067C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuarkGrid/QuarkGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuarkGrid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0E2B1982857E136006B067C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarkGrid.app/Contents/MacOS/QuarkGrid";
+			};
+			name = Debug;
+		};
+		D0E2B1992857E136006B067C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarkGrid.app/Contents/MacOS/QuarkGrid";
+			};
+			name = Release;
+		};
+		D0E2B19B2857E136006B067C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuarkGrid;
+			};
+			name = Debug;
+		};
+		D0E2B19C2857E136006B067C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pecuniary.QuarkGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuarkGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E2B16A2857E135006B067C /* Build configuration list for PBXProject "QuarkGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2B1922857E136006B067C /* Debug */,
+				D0E2B1932857E136006B067C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2B1942857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2B1952857E136006B067C /* Debug */,
+				D0E2B1962857E136006B067C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2B1972857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2B1982857E136006B067C /* Debug */,
+				D0E2B1992857E136006B067C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E2B19A2857E136006B067C /* Build configuration list for PBXNativeTarget "QuarkGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E2B19B2857E136006B067C /* Debug */,
+				D0E2B19C2857E136006B067C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E2B1672857E135006B067C /* Project object */;
+}
